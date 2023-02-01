@@ -15,7 +15,7 @@ export default function Header() {
           <Link href="/fixed">Fixed</Link>
         </li>
         <li>
-          <Link href="/table">Table</Link>
+          <Link href="/grid">Grid</Link>
         </li>
       </ul>
     </header>

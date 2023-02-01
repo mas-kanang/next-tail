@@ -4,7 +4,10 @@ import Layout from "../components/layout";
 export default function Fixed() {
   return (
     <Layout pageTitle="Fixed Page">
-      <div>
+      <div class="font-bold uppercase underline underline-offset-3 text-2xl">
+        <h1 class="mb-3 ml-3 text-xl font-bold">Halaman Tetap</h1>
+      </div>
+      <div class="mx-3 text-justify">
         <p>
           "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae

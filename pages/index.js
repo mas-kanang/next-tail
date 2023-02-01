@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <Layout pageTitle="Home Page">
-        <div class="font-bold uppercase underline underline-offset-3 text-2xl mb-3 ml-3">
-          Halaman Utama
+        <div class="font-bold uppercase underline underline-offset-3 text-2xl">
+          <h1 class="mb-3 ml-3 text-xl font-bold">Halaman Utama</h1>
         </div>
         <div>
           <Image src="/bg-01.jpg" height={300} width={300} alt="background" />

@@ -11,9 +11,9 @@ export default function Layout(props) {
         <title>Maskanang | {pageTitle}</title>
         <meta name="description" content="maskanang website" />
       </Head>
-      <div class="flex flex-col min-h-screen ">
+      <div className="flex flex-col min-h-screen ">
         <Header />
-        <div class="flex-1 mt-10  ">{children}</div>
+        <div className="flex-1 mt-10  ">{children}</div>
         <Footer />
       </div>
     </div>
